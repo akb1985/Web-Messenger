@@ -1,0 +1,705 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-y: hidden; */
+    max-height: 100vh;
+}
+hr{
+    margin-top:-15px;
+    width:80%;
+    color: black;
+}
+.header{
+    width:500px;
+    height:400px;
+    position: absolute;
+    top:100px;
+    left:200px;
+    box-shadow: 2px 0px 10px  black;
+    /* background-color:lightgreen; */
+    /* visibility: hidden; */
+}
+.login{
+    font-size:25px;
+    margin-left:200px;
+    color:green;
+}
+.form{
+    position: absolute;
+    width:80%;
+    height:75%;
+    left:50px;
+    /* background-color: #009245; */
+}
+.inputbox1{
+    position: absolute;
+    top:50px;
+    left:25px;
+    width:85%;
+    height:30px;
+    font-size: 16px;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+}
+.inputbox2{
+    position: absolute;
+    top:130px;
+    left:25px;
+    width:85%;
+    outline: none;
+    height:30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+}
+.loginbut
+{
+    position: absolute;
+    width:50%;
+    height:30px;
+    left:90px;
+    top:200px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 2px 1px 0 ;
+    background: transparent;
+    background-color: #009245;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid black;
+}
+#red{
+    color:red;
+    cursor: pointer;
+}
+.chattitle{
+    position: absolute;
+    width:500px;
+    height:400px;
+    /* border: 1px solid; */
+    /* background-color: aqua; */
+    /* box-shadow: 0px 0px 1px 0px black; */
+    top:100px;
+    left:700px;
+    background-repeat: no-repeat;
+}
+.chattitle2{
+    position: absolute;
+    width:500px;
+    height:400px;
+    /* border: 1px solid; */
+    /* background-color: aqua; */
+    /* box-shadow: 0px 0px 1px 0px black; */
+    top:100px;
+    left:200px;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+.image{
+    width:400px;
+    height:400px;
+    position: absolute;
+    left:45px;
+}
+.reg{
+    width:500px;
+    height:400px;
+    /* border: solid 1px; */
+    position: absolute;
+    background-color:white;
+    top:100px;
+    left:700px;
+    visibility: hidden;
+    box-shadow: 2px 0px 10px black;
+}
+
+.regs{
+    text-align: center;
+}
+.para{
+    position: absolute;
+    top:435px;
+    left:820px;
+    color: green;
+    font-size: 25px;
+}
+.para1{
+    position: absolute;
+    top:435px;
+    left:920px;
+    color: red;
+    font-size: 25px;
+}
+.kreg{
+    position: absolute;
+    top:250px;
+    left:120px;
+}
+
+#green{
+    color: green;
+    cursor: pointer;
+}
+
+
+.but{
+    width:50px;
+    height:25px;
+    border:none;
+    background: white;
+}
+.onlinehead{
+    padding: 0px;
+    position: relative;
+    width:99%;
+    height:50px;
+    margin-top: -10px;
+    background-color: navy;
+    box-shadow: 5px 0 0px 0 navy;
+}
+
+.whoon{
+    width:800px;
+    height:40px;
+    padding:3px; 
+    margin-left:80px;
+    margin-top:70px;
+    background-color: navy;
+} 
+.whoon #receiveronmybox {
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    margin-top: 7px;
+    margin-left:40px;
+}
+.Chat-Box{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    padding: 0px;
+    margin-top: -15px;
+}
+.whoison{
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Sniglet', cursive;
+    color: black;
+    margin-top:-5px;
+
+}
+
+/*Chatting Head */
+
+.chatting{
+    width:70%;
+    height:100vh;
+    float:left;    
+}
+.message-box-cover{
+    /* display: none; */
+}
+.whoonn{
+    text-align:left;
+    font-size: 20px;
+    margin-top:10px;
+    padding: 10px;
+    font-weight: bold;
+    color:white;
+}
+
+ul li {
+    list-style:none;
+}
+.group{
+    margin-left:200px;
+    cursor: pointer;
+}
+.logout{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    padding: 0px;
+    font-weight: bold;
+}
+.itisonline{
+    font-size:20px;
+    font-weight:bold;
+    color: navy;
+    margin-left:120px;
+}
+.online{
+    width:30%;
+    height:100vh;
+    box-shadow: 2px 0px 15px black;
+    float: left;
+    overflow-y: auto;
+}
+.online::-webkit-scrollbar{
+    width:0.3rem;
+}
+.online::-webkit-scrollbar-thumb{
+    background-color: navy;
+    -moz-backround-color:navy;
+}
+.header1{
+    width:100%;
+    height:100%;
+    /* overflow-x: hidden; */
+    /* background-color: lightseagreen; */
+}
+.messages{
+    width:800px;
+    height:450px;
+    /* margin-top:; */
+    margin-left:80px;
+    padding: 2px;
+    overflow-x: hidden;
+    border-right:1px solid;
+    border-left:1px solid;
+    overflow-y: scroll;
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    /* background-image: url("1.jpg"); */
+}
+
+.messages::-webkit-scrollbar{
+    width:0.3rem;
+}
+.messages::-webkit-scrollbar-thumb{
+    background-color: green;
+    -moz-backround-color:green;
+}
+ .messsend{
+    width:800px;
+    height:44px;
+    padding: 3px;
+    margin-left:80px;
+    -moz-width:1021px;
+    -moz-height:53px;
+    background-color: navy;
+}
+
+.txtarea{
+    float:left;
+    width:500px;
+    margin-top:10px;
+    margin-left: 80px;
+    height:20px;
+    border:none;
+    padding: 3px;
+    outline:none;
+    font-size: 15px;
+    text-align:center;
+    border-radius:5px;
+}
+.send{
+    width:130px;
+    height:25px;
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color:white;
+    font-weight: bold;
+    background: #009245;
+    cursor: pointer;
+}
+#status{
+    padding-top:30px;
+}
+.senddiv{
+    margin:30px;
+    width:30vh;
+    height:60px;
+    background-color: lightgreen;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+   
+}
+.receivediv{
+    margin-left:500px;
+    width:30vh;
+    height:60px;
+    background-color: lightblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    
+}
+
+.usrh{
+    padding: 5px;
+    font-weight: bold;
+    color:green;
+}
+.usr2h{
+    padding: 5px;
+    font-weight: bold;
+    color:blue;
+    margin-left:130px;
+}
+.usrm , .usr2m
+{
+    padding: 0px;
+    margin-left:10px;
+    margin-top:-10px;
+}
+.peopleon{
+    width:200px;
+    height:25px;
+    font-size: 20px;
+    margin-left:-20px;
+    margin-top:10px;
+    background:transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.dot{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: red;
+    /* display: inline;  */
+    position: relative;
+    left:250px;
+    top:-15px;
+}
+.main-header{
+    width: 100%;
+    height: 70px;
+}
+.main-header img{
+    width:50px;
+    height: 50px;
+}
+.main-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+    color:crimson;
+}
+.hr{
+    width: 100%;
+    height:3px;
+    padding: 0px;
+    margin: 0px;
+    background-color:black;
+}
+.footer{
+    width:100%;
+    height:60px;
+    background-color: crimson;
+    margin-top:536px;
+    box-shadow: 2px 0px 10px;
+}
+.footer p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;    
+}
+.logout .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    font-size: 17px;
+    background-color: #009245;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 250px;
+    margin-left: 60px;
+  }
+  
+  .logout .tooltiptext::after ,.group .tooltiptext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #009245 transparent;
+  }
+  
+  .logout:hover .tooltiptext ,.group:hover .tooltiptext{
+    visibility: visible;
+  }
+  .group .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    font-size: 17px;
+    background-color: #009245;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 175px;
+    margin-left: 60px;
+  }
+  .logoutthanks{
+      font-size:100px;
+      font-weight: bold;
+      color:crimson;
+  }
+  .logoutthanks img{
+      width: 200px;
+      height: 200px;
+  }
+  .under-line{
+      width:400px;
+      height:10px;
+      margin-top:-120px;
+      border-radius: 10px;
+      background-color: #009245;
+  }
+  .lo{
+      font-size: 46px;
+      font-weight: bold;
+      margin-top:-15px;
+      color:teal;
+  }
+  .coverlogout{
+      margin-left: 460px;
+      margin-top:130px;
+  }
+
+  .tooltip {
+    visibility: hidden;
+    width: 80px;
+    font-size: 17px;
+    background-color: #009245;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 250px;
+    margin-left: 140px;
+  }
+  
+  .tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #009245 transparent;
+  }
+  
+  .Chat-Box:hover .tooltip {
+    visibility: visible;
+  }
+  
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    20% {
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+  
+    40% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+  
+    80% {
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+  
+    to {
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .bounceIn {
+    animation-duration: 0.75s;
+    animation-name: bounceIn;
+  }
+  
+
+@media(max-width: 700px){
+
+    body,html{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .header{
+        left:10px;
+        width:470px;
+        top:510px;
+    }
+    .hr{
+        width: 100%;
+        height:3px;
+        padding: 0px;
+        margin: 0px;
+        background-color:black;
+    }
+    .footer{
+        
+        position: absolute;
+        margin-top: 900px;
+    }
+    .footer p{
+        position: absolute;
+        top:-35px;
+        left:150px;
+    }
+    .chattitle{
+        display: block;
+        left:10px;
+        width:470px;
+    }
+    .chattitle2{
+        display: block;
+        left:10px;
+        width:470px;
+        top:510px;
+    }
+    .para{
+        position: absolute;
+        top:435px;
+        left:140px;
+        color: green;
+        font-size: 25px;
+    }
+    .para1{
+        position: absolute;
+        top:435px;
+        left:230px;
+        color: red;
+        font-size: 25px;
+    }
+    .reg{
+        left:10px;
+        width:470px;
+    }
+    .image{
+        /* display: none; */
+    }
+    .online{
+        width:100%;
+        visibility: visible;
+    }
+    .whoonn{
+        margin-left: 40px;
+    }
+    .itisonline{
+        margin-left:170px;
+    }
+    .peopleon{
+        width:400px;
+        text-align: left;
+        font-size: 23px;
+        margin-left: 20px;
+    }
+    .group{
+        margin-left: 230px;
+    }
+    .dot{
+        left:350px;
+    }
+    .chatting{
+        display: block;
+        width:100%;
+        height: auto;
+    }
+    .whoon{
+        width:100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .message-box-cover{
+        margin-top: -660px;
+        visibility: hidden;
+    }
+    .messages{
+        margin-left: 0px;
+        width: 100%;
+        height:560px;
+    }
+    .messsend{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .txtarea{
+        margin-left: 20px;
+        width: 300px;
+    }
+    .receivediv{
+        margin-left: 250px;
+    }
+    .messages::-webkit-scrollbar{
+        width:0.5rem;
+    }
+    .messages::-webkit-scrollbar-thumb{
+        background-color: green;
+        -moz-backround-color:green;
+    }
+    body::-webkit-scrollbar{
+        width:0.1rem;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: navy;
+        -moz-backround-color:navy;
+    }
+    .logout .tooltiptext{
+        left:320px;
+    }
+    .group .tooltiptext{
+        left:245px;
+    }
+    .coverlogout{
+        margin-left: 50px;
+        margin-top:120px;
+    }
+}
